@@ -24,7 +24,7 @@ except ImportError:
     pass
 
 class WeChatScanLogin:
-    def __init__(self, base_url="https://api.kornza.com"):
+    def __init__(self, base_url="https://api.aicodewell.shop"):
         """
         初始化微信扫码登录客户端
         
@@ -253,7 +253,7 @@ class WeChatScanLogin:
         return None
 
 def main():
-    client = WeChatScanLogin(base_url="https://api.kornza.com")
+    client = WeChatScanLogin(base_url="https://api.aicodewell.shop")
     user_info = client.login(timeout=300)
     
     if user_info:
