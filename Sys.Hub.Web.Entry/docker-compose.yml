@@ -2,18 +2,22 @@ version: '3.8'
 
 services:
   wechat-scan-login:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    # 使用 GitHub Container Registry 镜像，或本地构建
+    image: ghcr.io/${GITHUB_REPOSITORY_OWNER:-pangtaiyi}/wechat-scan-login:latest
+    # build:
+    #   context: ..
+    #   dockerfile: Dockerfile
     container_name: wechat-scan-login
     ports:
-      - "5208:5208"
+      - "5208:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ASPNETCORE_URLS=http://+:5208
+      - PORT=8080
     volumes:
       - ./Sys.Hub.Web.Entry/Configs:/app/Configs:ro
       - ./Sys.Hub.Web.Entry/wwwroot/TemporaryFile:/app/wwwroot/TemporaryFile
+    # 注意：从 Sys.Hub.Web.Entry 目录运行时，路径需要去掉前缀
+    # 如果从项目根目录运行：docker-compose -f Sys.Hub.Web.Entry/docker-compose.yml up
     restart: unless-stopped
 
   nginx:

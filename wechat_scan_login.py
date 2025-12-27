@@ -16,13 +16,12 @@ import json
 import threading
 import time
 import sys
+import os
 
 try:
     import qrcode
 except ImportError:
-    print("请先安装 qrcode 库: pip install qrcode")
-    sys.exit(1)
-
+    pass
 
 class WeChatScanLogin:
     def __init__(self, base_url="https://api.kornza.com"):
@@ -83,8 +82,37 @@ class WeChatScanLogin:
                 f.write(response.content)
             
             print("\n" + "=" * 50)
-            print("请使用微信扫描二维码登录")
+            print("请使用微信扫描下方二维码登录")
             print("=" * 50 + "\n")
+            
+            # 尝试在终端显示二维码
+            try:
+                from PIL import Image
+                import io
+                
+                # 加载图片
+                img = Image.open(io.BytesIO(response.content))
+                img = img.convert('L')  # 转为灰度
+                
+                # 调整大小（终端字符宽高比约为 2:1）
+                width = 60
+                height = int(width * img.height / img.width / 2)
+                img = img.resize((width, height))
+                
+                # 转换为 ASCII 字符
+                pixels = list(img.getdata())
+                chars = []
+                for i, pixel in enumerate(pixels):
+                    if i % width == 0 and i != 0:
+                        chars.append('\n')
+                    # 深色用实心块，浅色用空格
+                    chars.append('██' if pixel < 128 else '  ')
+                
+                print(''.join(chars))
+                print()
+                
+            except ImportError:
+                print("提示: pip install Pillow 可在终端显示二维码")
             
             # 尝试自动打开图片
             import subprocess
@@ -94,18 +122,14 @@ class WeChatScanLogin:
             try:
                 if system == "Darwin":  # macOS
                     subprocess.Popen(["open", qr_file], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                    print(f"✓ 已自动打开二维码图片: {qr_file}")
                 elif system == "Windows":
                     subprocess.Popen(["start", qr_file], shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                    print(f"✓ 已自动打开二维码图片: {qr_file}")
                 elif system == "Linux":
                     subprocess.Popen(["xdg-open", qr_file], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                    print(f"✓ 已自动打开二维码图片: {qr_file}")
-                else:
-                    print(f"二维码图片已保存到: {qr_file}")
             except:
-                print(f"二维码图片已保存到: {qr_file}")
+                pass
             
+            print(f"二维码图片已保存到: {qr_file}")
             print(f"或访问: {self.qr_code_url}")
             print("\n等待扫码中...\n")
             
@@ -115,13 +139,11 @@ class WeChatScanLogin:
     
     def _on_ws_message(self, ws, message):
         """WebSocket 消息回调"""
-        print(f"[DEBUG] 收到原始消息: {message}")
+        print(f"[DEBUG] 收到消息: {message}")
         try:
             data = json.loads(message)
             status = data.get("Status", data.get("status"))
             msg = data.get("Msg", data.get("msg"))
-            
-            print(f"[DEBUG] 解析后 - Status: {status}, Msg: {msg}")
             
             if status == "Scan":
                 self.login_status = "Scan"
@@ -155,12 +177,13 @@ class WeChatScanLogin:
     def _on_ws_close(self, ws, close_status_code, close_msg):
         """WebSocket 关闭回调"""
         self.is_connected = False
+        print("WebSocket 连接关闭")
     
     def _on_ws_open(self, ws):
         """WebSocket 连接成功回调"""
         self.is_connected = True
         print("✓ WebSocket 连接成功，等待扫码...")
-        print(f"[DEBUG] WebSocket URL: {self.ws_url}/ws?ClientID={self.web_page_key}")
+        print(f"[DEBUG] ClientID: {self.web_page_key}")
         
         # 启动心跳线程
         def heartbeat():
@@ -168,21 +191,14 @@ class WeChatScanLogin:
                 try:
                     if ws.sock and ws.sock.connected:
                         ws.send(json.dumps({"Action": "heartbeat", "Msg": "ping"}))
-                        print("[DEBUG] 心跳发送")
-                except Exception as e:
-                    print(f"[DEBUG] 心跳发送失败: {e}")
+                except:
                     break
                 time.sleep(30)
         
         threading.Thread(target=heartbeat, daemon=True).start()
     
     def start_websocket(self, timeout=300):
-        """
-        启动 WebSocket 监听扫码状态
-        
-        Args:
-            timeout: 超时时间（秒），默认 5 分钟
-        """
+        """启动 WebSocket 监听"""
         if not self.web_page_key:
             print("请先获取二维码")
             return False
@@ -197,7 +213,6 @@ class WeChatScanLogin:
             on_close=self._on_ws_close
         )
         
-        # 在后台线程运行 WebSocket
         ws_thread = threading.Thread(
             target=lambda: self.ws.run_forever(ping_interval=30, ping_timeout=10)
         )
@@ -213,49 +228,32 @@ class WeChatScanLogin:
                 return False
             time.sleep(0.5)
         
-        print("登录超时")
         if self.ws:
             self.ws.close()
         return False
     
     def login(self, timeout=300):
-        """
-        执行扫码登录流程
-        
-        Args:
-            timeout: 超时时间（秒）
-            
-        Returns:
-            dict: 登录成功返回用户信息，失败返回 None
-        """
+        """执行扫码登录流程"""
         print("=" * 50)
         print("微信扫码登录")
         print("=" * 50)
         
-        # 1. 获取二维码
         print("\n[1/3] 获取二维码...")
         if not self.get_qr_code():
             return None
         print(f"✓ 二维码获取成功")
         
-        # 2. 显示二维码
         print("\n[2/3] 显示二维码...")
         self.display_qr_code()
         
-        # 3. 启动 WebSocket 监听
         print("[3/3] 启动扫码监听...")
         if self.start_websocket(timeout):
             return self.user_info
         
         return None
 
-
 def main():
-    """主函数"""
-    # 创建登录客户端
     client = WeChatScanLogin(base_url="https://api.kornza.com")
-    
-    # 执行登录
     user_info = client.login(timeout=300)
     
     if user_info:
@@ -264,19 +262,10 @@ def main():
         print("=" * 50)
         print(json.dumps(user_info, ensure_ascii=False, indent=2))
         print("=" * 50)
-        
-        # 提取关键信息
-        print(f"\n关键信息：")
-        print(f"  OpenID:     {user_info.get('openId', 'N/A')}")
-        print(f"  昵称:       {user_info.get('nickName', 'N/A')}")
-        print(f"  AppID:      {user_info.get('appId', 'N/A')}")
-        print(f"  SessionKey: {user_info.get('sessionKey', 'N/A')}")
-        
         return user_info
     else:
         print("\n登录失败或已取消")
         return None
-
 
 if __name__ == "__main__":
     result = main()

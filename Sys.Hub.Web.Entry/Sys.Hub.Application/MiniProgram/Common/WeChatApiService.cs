@@ -43,8 +43,9 @@ namespace Sys.Hub.Application.MiniProgram
             Console.WriteLine($"[WechatUserProxy] 收到登录请求 - code: {wechatUserEntity.code}");
             
             Code2SessionRequest entity = new Code2SessionRequest();
-            entity.appid = App.GetConfig<string>("AppID");
-            entity.secret = App.GetConfig<string>("Secret");
+            // 优先从环境变量读取，其次从配置文件
+            entity.appid = Environment.GetEnvironmentVariable("AppID") ?? App.GetConfig<string>("AppID");
+            entity.secret = Environment.GetEnvironmentVariable("Secret") ?? App.GetConfig<string>("Secret");
             entity.js_code = wechatUserEntity.code;
             
             Console.WriteLine($"[WechatUserProxy] 调用微信API - AppID: {entity.appid}");
@@ -97,8 +98,9 @@ namespace Sys.Hub.Application.MiniProgram
         [HttpPost("GetWeChatQrCode")]
         public async Task<ResponseEntity> GetWeChatQrCode()
         {
-            var appid = App.GetConfig<string>("AppID");
-            var secret = App.GetConfig<string>("Secret");
+            // 优先从环境变量读取，其次从配置文件
+            var appid = Environment.GetEnvironmentVariable("AppID") ?? App.GetConfig<string>("AppID");
+            var secret = Environment.GetEnvironmentVariable("Secret") ?? App.GetConfig<string>("Secret");
 
             //获取 AccessToken
             AccessTokenResponse entity = _wechatHelper.GetAccessToken(appid, secret);
