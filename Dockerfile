@@ -31,6 +31,12 @@ WORKDIR /app
 # 复制发布文件
 COPY --from=build /app/publish .
 
+# 复制配置文件目录 (发布时不会自动包含)
+COPY --from=build /src/Sys.Hub.Web.Entry/Sys.Hub.Web.Entry/Configs ./Configs
+
+# 确保临时文件目录存在且可写
+RUN mkdir -p /app/wwwroot/TemporaryFile && chmod 777 /app/wwwroot/TemporaryFile
+
 # Claw.cloud 使用 PORT 环境变量
 ENV ASPNETCORE_URLS=http://+:${PORT:-8080}
 ENV ASPNETCORE_ENVIRONMENT=Production
