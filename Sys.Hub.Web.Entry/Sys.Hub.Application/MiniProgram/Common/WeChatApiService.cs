@@ -40,17 +40,27 @@ namespace Sys.Hub.Application.MiniProgram
         [HttpPost("WechatUserProxy")]
         public async Task<ResponseEntity> WechatUserProxy(WechatUserProxyEntity wechatUserEntity)
         {
+            Console.WriteLine($"[WechatUserProxy] 收到登录请求 - code: {wechatUserEntity.code}");
+            
             Code2SessionRequest entity = new Code2SessionRequest();
             entity.appid = App.GetConfig<string>("AppID");
             entity.secret = App.GetConfig<string>("Secret");
             entity.js_code = wechatUserEntity.code;
+            
+            Console.WriteLine($"[WechatUserProxy] 调用微信API - AppID: {entity.appid}");
+            
             var jscode2session = _wechatHelper.GetCode2Session(entity);
+            
+            Console.WriteLine($"[WechatUserProxy] 微信API返回 - OpenID: {jscode2session.openid}, ErrCode: {jscode2session.errcode}");
+            
             if (string.IsNullOrEmpty(jscode2session.openid))
             {
+                var errMsg = $"登录失败 (errcode: {jscode2session.errcode})";
+                Console.WriteLine($"[WechatUserProxy] {errMsg}");
                 return new ResponseEntity()
                 {
                     Code = 500,
-                    Message = "登录失败"
+                    Message = errMsg
                 };
             }
             else
@@ -59,8 +69,7 @@ namespace Sys.Hub.Application.MiniProgram
                 wechat.OpenId = jscode2session.openid;
                 wechat.AppId = entity.appid;
 
-                //此处需要保存到数据库
-                //_weChatService.SaveWechatUserEntity(wechat, wechatUserEntity.F_DeviceID);
+                Console.WriteLine($"[WechatUserProxy] 登录成功 - OpenID: {jscode2session.openid}");
 
                 return new ResponseEntity()
                 {
