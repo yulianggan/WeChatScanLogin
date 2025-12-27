@@ -1,4 +1,4 @@
-﻿using Furion.DynamicApiController;
+using Furion.DynamicApiController;
 using Furion.JsonSerialization;
 using Furion.Logging;
 using Microsoft.AspNetCore.Http;
@@ -86,12 +86,27 @@ namespace Sys.Hub.Application.MiniProgram
         {
             if (MessageEntity == null)
                 return;
-            var client = WebsocketClientCollection.Get(!string.IsNullOrEmpty(MessageEntity.ReceiveID) ? MessageEntity.ReceiveID : MessageEntity.SendClientId);
+            
+            var targetId = !string.IsNullOrEmpty(MessageEntity.ReceiveID) ? MessageEntity.ReceiveID : MessageEntity.SendClientId;
+            Console.WriteLine($"[WebSocket] 消息路由 - Action: {MessageEntity.Action}, ReceiveID: {MessageEntity.ReceiveID}, SendClientId: {MessageEntity.SendClientId}, TargetID: {targetId}");
+            Console.WriteLine($"[WebSocket] 当前连接数: {WebsocketClientCollection.Count()}");
+            
+            var client = WebsocketClientCollection.Get(targetId);
+            
+            if (client == null)
+            {
+                Console.WriteLine($"[WebSocket] 警告: 未找到目标客户端 {targetId}");
+                // 打印所有当前连接的客户端ID
+                WebsocketClientCollection.PrintAllClients();
+                return;
+            }
+            
             switch (MessageEntity.Action)
             {
                 case "Calcel":
                 case "Scan":
                 case "Login":
+                    Console.WriteLine($"[WebSocket] 发送消息到客户端 {targetId}: Action={MessageEntity.Action}");
                     client.SendMessageAsync(JSON.Serialize(new { Status = MessageEntity.Action, Msg = MessageEntity.Msg }));
                     break;
                 default:
@@ -107,19 +122,35 @@ namespace Sys.Hub.Application.MiniProgram
 
         public static void Add(WebsocketClient client)
         {
+            Console.WriteLine($"[WebSocket] 添加客户端: {client.ID}");
             _clients.Add(client);
         }
 
         public static void Remove(WebsocketClient client)
         {
+            Console.WriteLine($"[WebSocket] 移除客户端: {client.ID}");
             _clients.Remove(client);
         }
 
         public static WebsocketClient Get(string clientId)
         {
             var client = _clients.FirstOrDefault(c => c.ID == clientId);
-
+            Console.WriteLine($"[WebSocket] 查找客户端 {clientId}: {(client != null ? "找到" : "未找到")}");
             return client;
+        }
+        
+        public static int Count()
+        {
+            return _clients.Count;
+        }
+        
+        public static void PrintAllClients()
+        {
+            Console.WriteLine($"[WebSocket] 所有连接的客户端:");
+            foreach (var c in _clients)
+            {
+                Console.WriteLine($"  - {c.ID}");
+            }
         }
 
         public static List<WebsocketClient> GetRoomClients(string roomNo)
