@@ -1,4 +1,4 @@
-﻿using Furion;
+using Furion;
 using Furion.DatabaseAccessor;
 using Furion.UnifyResult;
 using Microsoft.AspNetCore.Builder;
@@ -55,6 +55,9 @@ namespace Sys.Hub.Web.Core
         {
             app.UseRouting();
 
+            // CORS 必须在 UseRouting 之后、UseEndpoints 之前
+            app.UseCorsAccessor();
+
             #region WebSocket
 
             app.UseWebSockets();
@@ -86,8 +89,6 @@ namespace Sys.Hub.Web.Core
             {
                 RequestPath = "/Content"
             });
-
-            app.UseCorsAccessor();
 
             app.UseInject("swagger");
 
