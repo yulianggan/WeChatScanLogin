@@ -32,30 +32,35 @@ namespace Sys.Hub.Application.MiniProgram
         [Route("/ws")]
         public async Task Get(string ClientID)
         {
-            if (_httpContext.Request.Path == "/ws")
+            Console.WriteLine($"[WebSocket] 收到 /ws 请求, Path: {_httpContext.Request.Path}");
+            Console.WriteLine($"[WebSocket] IsWebSocketRequest: {_httpContext.WebSockets.IsWebSocketRequest}");
+            Console.WriteLine($"[WebSocket] Connection Header: {_httpContext.Request.Headers["Connection"]}");
+            Console.WriteLine($"[WebSocket] Upgrade Header: {_httpContext.Request.Headers["Upgrade"]}");
+            
+            if (_httpContext.WebSockets.IsWebSocketRequest)
             {
-                if (_httpContext.WebSockets.IsWebSocketRequest)
+                WebSocket webSocket = await _httpContext.WebSockets.AcceptWebSocketAsync();
+                ClientID = string.IsNullOrEmpty(ClientID) ? Guid.NewGuid().ToString() : ClientID;
+                var wsClient = new WebsocketClient
                 {
-                    WebSocket webSocket = await _httpContext.WebSockets.AcceptWebSocketAsync();
-                    ClientID = string.IsNullOrEmpty(ClientID) ? Guid.NewGuid().ToString() : ClientID;
-                    var wsClient = new WebsocketClient
-                    {
-                        ID = ClientID,
-                        WebSocket = webSocket
-                    };
-                    try
-                    {
-                        await Handle(wsClient);
-                    }
-                    catch (Exception ex)
-                    {
-                        await _httpContext.Response.WriteAsync("closed");
-                    }
-                }
-                else
+                    ID = ClientID,
+                    WebSocket = webSocket
+                };
+                try
                 {
-                    _httpContext.Response.StatusCode = 404;
+                    await Handle(wsClient);
                 }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[WebSocket] 处理异常: {ex.Message}");
+                    await _httpContext.Response.WriteAsync("closed");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"[WebSocket] 非 WebSocket 请求，返回 400");
+                _httpContext.Response.StatusCode = 400;
+                await _httpContext.Response.WriteAsync("WebSocket connection required. Use ws:// or wss:// protocol.");
             }
         }
 
