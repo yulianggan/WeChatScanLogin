@@ -1,0 +1,50 @@
+﻿<link href="~/Areas/PangTaiYi/Content/CSS/Index.css" rel="stylesheet" />
+<div class="header">
+    <img src="~/Image/pty.png" />
+    <span>胖太乙</span>
+    <a href="https://blog.csdn.net/IT_rookie_newbie" target="_top">博客地址</a>
+    <a href="" target="_blank">源码下载</a>
+</div>
+<!--左侧 开始-->
+<div class="left">
+    <div class="text">
+        <p class="title">在线测试扫码登录！</p>
+        <p>（ 请使用手机微信扫描下侧的二维码，然后点击确认， 即可实现扫码登录! ）</p>
+    </div>
+    <div class="code">
+        <div class="QRCodePanel">
+            <img src="~/Areas/ScanDemo/Content/Image/Lodding.png" class="QRCode" data-key="" />
+            <p class="title">
+                微信扫码后点击“确认授权”，完成登录/注册。
+            </p>
+        </div>
+
+        <div class="ScanSuccess display">
+            <div class="title">
+                <img src="~/Areas/ScanDemo/Content/Image/Success.png" />
+                <div>扫描成功！</div>
+            </div>
+            <div class="title1">
+                请在手机微信上确认授权
+            </div>
+        </div>
+        <div class="ScanRefuse display">
+            <div class="title">
+                <img src="~/Areas/ScanDemo/Content/Image/Error.png" />
+                <div>授权失败！</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--左侧 结束-->
+
+<!--右侧 开始-->
+<div class="right">
+    <ul class="print" id="print">
+    </ul>
+</div>
+<input type="button" class="clear" value="清除" onclick="Clear()" />
+<!--右侧 结束-->
+
+<script src="~/Content/JS/jquery-1.10.2.min.js"></script>
+<script src="~/Areas/PangTaiYi/Content/JS/Index.js"></script>

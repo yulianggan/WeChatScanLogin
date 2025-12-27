@@ -1,0 +1,2190 @@
+info: 2025-12-27 14:38:17.6262430 +08:00 Saturday L Microsoft.Hosting.Lifetime[14] #1
+      Now listening on: http://localhost:5208
+info: 2025-12-27 14:38:17.6335840 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-12-27 14:38:17.6339080 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-12-27 14:38:17.6339260 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: /Users/mac/github/WeChatScanLogin/Sys.Hub.Web.Entry/Sys.Hub.Web.Entry/
+info: 2025-12-27 14:38:25.4004670 +08:00 Saturday L System.Logging.LoggingMonitor[0] #10
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       curl/8.7.1
+      ┣ 客户端区域语言：   
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-25eead0ba8addc753021fade71809623-d604c8589126e706-00
+      ┣ 服务线程 ID：      #10
+      ┣ 执行耗时：         2ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:38:36.3673140 +08:00 Saturday L System.Logging.LoggingMonitor[0] #8
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-a718284dab7b78d31e5c2e6e7bc3067d-8c70ff147d208534-00
+      ┣ 服务线程 ID：      #8
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:38:37.5255590 +08:00 Saturday L System.Logging.LoggingMonitor[0] #15
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-3953c7cef18e67c37523030bea666f07-898045c8f74077de-00
+      ┣ 服务线程 ID：      #15
+      ┣ 执行耗时：         943ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"afa16139-0084-4a05-8b75-1","webPageKey":"9-0084-4a05-8b75-1f98fb05"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817517"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:38:39.6515560 +08:00 Saturday L System.Logging.LoggingMonitor[0] #20
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-16e7074e06a0dbc687ecf78aeec87f24-7ab6277be0d8f81f-00
+      ┣ 服务线程 ID：      #20
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:38:40.0568660 +08:00 Saturday L System.Logging.LoggingMonitor[0] #21
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=9-0084-4a05-8b75-1f98fb05
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-fcf6ceb1887d1b927954b21a1815787d-408daf1d9f0de48e-00
+      ┣ 服务线程 ID：              #15
+      ┣ 执行耗时：                 2480ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        9-0084-4a05-8b75-1f98fb05
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817520"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:38:40.0731400 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #21
+      Connection id "0HNI52A4PB6HU", Request id "0HNI52A4PB6HU:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:38:40.6249840 +08:00 Saturday L System.Logging.LoggingMonitor[0] #18
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-8e94a9102a4ededdd6cea4a3a27f8289-4a1c66c18529256c-00
+      ┣ 服务线程 ID：      #18
+      ┣ 执行耗时：         564ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"1ddf3926-0d26-4991-899c-3","webPageKey":"6-0d26-4991-899c-33a7c51f"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817520"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:01.3121300 +08:00 Saturday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-51f23db917ec41e51116fb59e7e83cb8-9a1622ab8f965fac-00
+      ┣ 服务线程 ID：      #3
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:01.3309460 +08:00 Saturday L System.Logging.LoggingMonitor[0] #10
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=6-0d26-4991-899c-33a7c51f
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-baa9bb1880845b4ddd9ecc2c377011f6-33a8e15072b30821-00
+      ┣ 服务线程 ID：              #21
+      ┣ 执行耗时：                 80693ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        6-0d26-4991-899c-33a7c51f
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817601"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:40:01.3348450 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #10
+      Connection id "0HNI52A4PB6I1", Request id "0HNI52A4PB6I1:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:40:02.0855240 +08:00 Saturday L System.Logging.LoggingMonitor[0] #20
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-c9be6560f9ceaf4ee22543b685a66507-87740339e8a558db-00
+      ┣ 服务线程 ID：      #20
+      ┣ 执行耗时：         663ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"2ec34645-193a-464b-ad27-7","webPageKey":"5-193a-464b-ad27-72c74c1a"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817602"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:55.1796750 +08:00 Saturday L System.Logging.LoggingMonitor[0] #31
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-eb2fd3ceec23c00d15a5ef2fec3f571c-10b9f958fb54c3b8-00
+      ┣ 服务线程 ID：      #31
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:55.2002700 +08:00 Saturday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=5-193a-464b-ad27-72c74c1a
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-33c0f6f75f3e1d1ea0eae4b155635e3f-20e73115ca301c2b-00
+      ┣ 服务线程 ID：              #28
+      ┣ 执行耗时：                 53089ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        5-193a-464b-ad27-72c74c1a
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817655"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:40:55.2109170 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #3
+      Connection id "0HNI52A4PB6IB", Request id "0HNI52A4PB6IB:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:40:55.8361270 +08:00 Saturday L System.Logging.LoggingMonitor[0] #38
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-3321907fa36a3fa977cef2e766f7eadb-026bd4f4bf97fe38-00
+      ┣ 服务线程 ID：      #38
+      ┣ 执行耗时：         602ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"cc5d1189-71b7-4aa6-b8d7-8","webPageKey":"9-71b7-4aa6-b8d7-8d2ae825"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817655"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:56.7515420 +08:00 Saturday L System.Logging.LoggingMonitor[0] #33
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-15f7692057aa632248057e51cb249cce-2b8a6c2dc7d5f413-00
+      ┣ 服务线程 ID：      #33
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:57.1594580 +08:00 Saturday L System.Logging.LoggingMonitor[0] #33
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=9-71b7-4aa6-b8d7-8d2ae825
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-fca06faeeb26e39f685fd801342c26d7-0e06a0ea0eb4385a-00
+      ┣ 服务线程 ID：              #33
+      ┣ 执行耗时：                 1315ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        9-71b7-4aa6-b8d7-8d2ae825
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817657"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:40:57.1603730 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #33
+      Connection id "0HNI52A4PB6IE", Request id "0HNI52A4PB6IE:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:40:58.2663740 +08:00 Saturday L System.Logging.LoggingMonitor[0] #35
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-2f95624c6becad93bf5ad37fafe4e780-971c0d5c1785e04d-00
+      ┣ 服务线程 ID：      #35
+      ┣ 执行耗时：         652ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"c304630c-defc-451e-a882-6","webPageKey":"c-defc-451e-a882-6d5bcb21"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817658"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:59.2614640 +08:00 Saturday L System.Logging.LoggingMonitor[0] #44
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-26be4f97ca6c5888e0f98fffde643a65-78b40203f51a3978-00
+      ┣ 服务线程 ID：      #44
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:40:59.3335780 +08:00 Saturday L System.Logging.LoggingMonitor[0] #44
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=c-defc-451e-a882-6d5bcb21
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-828fd6ad78564195ef665e179f5ae228-6da929da5c6eadd5-00
+      ┣ 服务线程 ID：              #36
+      ┣ 执行耗时：                 1055ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        c-defc-451e-a882-6d5bcb21
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817659"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:40:59.3415670 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #44
+      Connection id "0HNI52A4PB6IF", Request id "0HNI52A4PB6IF:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:41:00.7838630 +08:00 Saturday L System.Logging.LoggingMonitor[0] #32
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-18553812ddf3071d353a328e5c9335fb-40436250cdfec30c-00
+      ┣ 服务线程 ID：      #32
+      ┣ 执行耗时：         571ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"1ea5e863-169f-4400-87d4-e","webPageKey":"3-169f-4400-87d4-e5c2d123"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817660"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:53.0922410 +08:00 Saturday L System.Logging.LoggingMonitor[0] #23
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-d1d935f7f6080707af0e25a836ae6b80-cafacc072f48e72e-00
+      ┣ 服务线程 ID：      #23
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:53.1168040 +08:00 Saturday L System.Logging.LoggingMonitor[0] #43
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=3-169f-4400-87d4-e5c2d123
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-a4a0385e9547d107a9e2c5481109f107-a44a1b070e42d0f8-00
+      ┣ 服务线程 ID：              #44
+      ┣ 执行耗时：                 52321ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        3-169f-4400-87d4-e5c2d123
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817713"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:41:53.1187080 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #43
+      Connection id "0HNI52A4PB6IH", Request id "0HNI52A4PB6IH:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:41:53.7325460 +08:00 Saturday L System.Logging.LoggingMonitor[0] #50
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-cd3962f8018518d05f0d11bd11e66e20-3facbb8e338517d3-00
+      ┣ 服务线程 ID：      #50
+      ┣ 执行耗时：         519ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"3748223f-73ef-4822-be26-a","webPageKey":"f-73ef-4822-be26-a4d6aa67"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817713"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:54.4649960 +08:00 Saturday L System.Logging.LoggingMonitor[0] #54
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-b8c68730df247362402fe36143819a02-09afb57afca08421-00
+      ┣ 服务线程 ID：      #54
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:54.8650810 +08:00 Saturday L System.Logging.LoggingMonitor[0] #54
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=f-73ef-4822-be26-a4d6aa67
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-f17f24fa060968e67e475018a9b937b6-cd4695d471b92c63-00
+      ┣ 服务线程 ID：              #52
+      ┣ 执行耗时：                 972ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        f-73ef-4822-be26-a4d6aa67
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817714"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:41:54.9202220 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #54
+      Connection id "0HNI52A4PB6IM", Request id "0HNI52A4PB6IM:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:41:55.5044890 +08:00 Saturday L System.Logging.LoggingMonitor[0] #48
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-ecad6c18f3ad7309ab57c79cfe7f87a2-e96455790d03cdb7-00
+      ┣ 服务线程 ID：      #48
+      ┣ 执行耗时：         808ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"9fa8ed55-e037-4fbf-84ec-d","webPageKey":"5-e037-4fbf-84ec-dc310766"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817715"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:56.6873740 +08:00 Saturday L System.Logging.LoggingMonitor[0] #48
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-5ffb725d4340f08aa8651d9f1a8e7f45-d023a8e896ed979e-00
+      ┣ 服务线程 ID：      #48
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:41:57.3320160 +08:00 Saturday L System.Logging.LoggingMonitor[0] #48
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=5-e037-4fbf-84ec-dc310766
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-fb46061572cd3236b01cb798a6920b84-b2c96cf2aa1c635c-00
+      ┣ 服务线程 ID：              #50
+      ┣ 执行耗时：                 1814ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        5-e037-4fbf-84ec-dc310766
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817717"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:41:57.3418940 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #48
+      Connection id "0HNI52A4PB6IN", Request id "0HNI52A4PB6IN:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:41:58.4176440 +08:00 Saturday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-f9aa9aec90d6fca79c43a2c23884ec63-83370a560a92a3f3-00
+      ┣ 服务线程 ID：      #3
+      ┣ 执行耗时：         655ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":500,"data":{"imageUrl":"/Areas/ScanDemo/Content/Image/Lodding.png","miniProgramKey":"d3fe9501-6066-4ab1-a55b-a","webPageKey":"1-6066-4ab1-a55b-a099500c"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817718"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:42:10.8033920 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #66
+      Application is shutting down...
+info: 2025-12-27 14:42:15.8272100 +08:00 Saturday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=1-6066-4ab1-a55b-a099500c
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-c765c402902ae30e8f281aa68070f889-142d6301a6b851db-00
+      ┣ 服务线程 ID：              #62
+      ┣ 执行耗时：                 17386ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        1-6066-4ab1-a55b-a099500c
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817735"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:42:15.8300810 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #3
+      Connection id "0HNI52A4PB6IQ", Request id "0HNI52A4PB6IQ:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:42:17.0066600 +08:00 Saturday L Microsoft.Hosting.Lifetime[14] #1
+      Now listening on: http://localhost:5208
+info: 2025-12-27 14:42:17.0107710 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-12-27 14:42:17.0110860 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-12-27 14:42:17.0111030 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: /Users/mac/github/WeChatScanLogin/Sys.Hub.Web.Entry/Sys.Hub.Web.Entry/
+info: 2025-12-27 14:42:17.5773100 +08:00 Saturday L System.Logging.LoggingMonitor[0] #14
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-1a5ec00e2c826f1963cb535aa6e3e899-e4bcb2602319e579-00
+      ┣ 服务线程 ID：      #14
+      ┣ 执行耗时：         2ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:42:18.8365730 +08:00 Saturday L System.Logging.LoggingMonitor[0] #16
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-399e02f424e92aea4c909d54fa4543e9-064ecf35b3cf81ef-00
+      ┣ 服务线程 ID：      #16
+      ┣ 执行耗时：         1150ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":200,"data":{"imageUrl":"/TemporaryFile/QrCode.jpg","miniProgramKey":"21f0e1f8-10d8-4ce8-9700-0","webPageKey":"8-10d8-4ce8-9700-064e4c1f"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817738"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:42:33.8292280 +08:00 Saturday L System.Logging.LoggingMonitor[0] #19
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       curl/8.7.1
+      ┣ 客户端区域语言：   
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-f81d2c2ba3127eabb92a243918673560-301b6c395c5c28dd-00
+      ┣ 服务线程 ID：      #19
+      ┣ 执行耗时：         810ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":200,"data":{"imageUrl":"/TemporaryFile/QrCode.jpg","miniProgramKey":"58062223-c305-4a36-95bc-1","webPageKey":"3-c305-4a36-95bc-1fa8ae83"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817753"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:43:41.3837500 +08:00 Saturday L System.Logging.LoggingMonitor[0] #3
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-1497cc4dbdcecac58e2bce671c801488-ae1a22880086e1be-00
+      ┣ 服务线程 ID：      #3
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:43:42.6445770 +08:00 Saturday L System.Logging.LoggingMonitor[0] #26
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-0f89b3882f002a9d03f30af11139e7e0-f827c2fe8e7c59e6-00
+      ┣ 服务线程 ID：      #26
+      ┣ 执行耗时：         1095ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":200,"data":{"imageUrl":"/TemporaryFile/QrCode.jpg","miniProgramKey":"62d56e00-6aa2-424e-9a01-d","webPageKey":"0-6aa2-424e-9a01-d56806d1"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766817822"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:52:04.0281380 +08:00 Saturday L System.Logging.LoggingMonitor[0] #52
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/drJ1qpl1vT
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-32bad549d2f2c60aaafeec84b609d7f1-2063d77a1eb40184-00
+      ┣ 服务线程 ID：                                     #52
+      ┣ 执行耗时：                                        302ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0a1oq31w3PACd63x3D3w3nEJ0D3oq31x","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","appId":"wxe18f9b9a1e9527c1","avatarUrl":"","city":null,"province":null,"country":null,"language":null,"f_Mobile":null,"gender":0,"nickName":"微信用户","f_UserId":null,"f_ID":null,"f_EnabledMark":null,"f_CreateUserId":null,"f_CreateDate":"0001-01-01T00:00:00Z","f_ModifyUserId":null,"f_ModifyDate":null,"f_DeleteMark":0,"f_Description":null},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818324"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:53:02.6970620 +08:00 Saturday L System.Logging.LoggingMonitor[0] #58
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/drJ1qpl1vT
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-cd87aa5a901dabd4db3157cb7ea19760-e0a1a9000c6f9b7b-00
+      ┣ 服务线程 ID：                                     #58
+      ┣ 执行耗时：                                        282ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0b11ov0w35Jae63gJV1w3Kudvi31ov0a","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","appId":"wxe18f9b9a1e9527c1","avatarUrl":"","city":null,"province":null,"country":null,"language":null,"f_Mobile":null,"gender":0,"nickName":"微信用户","f_UserId":null,"f_ID":null,"f_EnabledMark":null,"f_CreateUserId":null,"f_CreateDate":"0001-01-01T00:00:00Z","f_ModifyUserId":null,"f_ModifyDate":null,"f_DeleteMark":0,"f_Description":null},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818382"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:54:18.0963500 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #71
+      Application is shutting down...
+info: 2025-12-27 14:54:23.1063390 +08:00 Saturday L System.Logging.LoggingMonitor[0] #74
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=0-6aa2-424e-9a01-d56806d1
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-d4d15eba92f2f6363982aa4d0e01bd47-87347ce91f2547a0-00
+      ┣ 服务线程 ID：              #26
+      ┣ 执行耗时：                 640448ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        0-6aa2-424e-9a01-d56806d1
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818463"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:54:23.1063350 +08:00 Saturday L System.Logging.LoggingMonitor[0] #72
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=8-10d8-4ce8-9700-064e4c1f
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-1a8df31059c6c13fbbd8473188e254ec-5117a495f2df183e-00
+      ┣ 服务线程 ID：              #15
+      ┣ 执行耗时：                 724232ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        8-10d8-4ce8-9700-064e4c1f
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818463"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 14:54:23.1311860 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #72
+      Connection id "0HNI52C9VIL2M", Request id "0HNI52C9VIL2M:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fail: 2025-12-27 14:54:23.1312110 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #74
+      Connection id "0HNI52C9VIL2S", Request id "0HNI52C9VIL2S:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 14:55:28.9784730 +08:00 Saturday L Microsoft.Hosting.Lifetime[14] #1
+      Now listening on: http://localhost:5208
+info: 2025-12-27 14:55:28.9822530 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Application started. Press Ctrl+C to shut down.
+info: 2025-12-27 14:55:28.9825320 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Hosting environment: Development
+info: 2025-12-27 14:55:28.9825550 +08:00 Saturday L Microsoft.Hosting.Lifetime[0] #1
+      Content root path: /Users/mac/github/WeChatScanLogin/Sys.Hub.Web.Entry/Sys.Hub.Web.Entry/
+info: 2025-12-27 14:55:49.5242700 +08:00 Saturday L System.Logging.LoggingMonitor[0] #17
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-70c5426f64090f41e204ee9eeaf87c6c-1a04d4bac3bdb2ce-00
+      ┣ 服务线程 ID：      #17
+      ┣ 执行耗时：         2ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:55:50.9089850 +08:00 Saturday L System.Logging.LoggingMonitor[0] #18
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-649fb268f40081f93335fc1bd73bf8b8-64d6bf24bd0cb221-00
+      ┣ 服务线程 ID：      #18
+      ┣ 执行耗时：         1231ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":200,"data":{"imageUrl":"/TemporaryFile/QrCode.jpg","miniProgramKey":"781100d4-5a5a-4649-b14a-2","webPageKey":"4-5a5a-4649-b14a-22552352"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818550"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:56:13.5127430 +08:00 Saturday L System.Logging.LoggingMonitor[0] #16
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/c6vqpARqbY
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-c05aca2b0c7f309c5273879004ddce7a-4a8266892a59552c-00
+      ┣ 服务线程 ID：                                     #16
+      ┣ 执行耗时：                                        261ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0d1yktll2dRcTg4ylUkl2rBblY0yktl0","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","sessionKey":"GRi5VXQ2IsB04GdWw72+OQ==","code":"0d1yktll2dRcTg4ylUkl2rBblY0yktl0","appId":"wxe18f9b9a1e9527c1","nickName":"微信用户","avatarUrl":"","gender":0},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818573"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:56:33.0048140 +08:00 Saturday L System.Logging.LoggingMonitor[0] #28
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/c6vqpARqbY
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-3465697e300b9c9751bab19da02362ff-6dfca5aef47b2041-00
+      ┣ 服务线程 ID：                                     #28
+      ┣ 执行耗时：                                        212ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0d1hBv0w391be63Mol2w3wa1qm4hBv02","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","sessionKey":"GRi5VXQ2IsB04GdWw72+OQ==","code":"0d1hBv0w391be63Mol2w3wa1qm4hBv02","appId":"wxe18f9b9a1e9527c1","nickName":"微信用户","avatarUrl":"","gender":0},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818592"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 14:57:58.1714120 +08:00 Saturday L System.Logging.LoggingMonitor[0] #28
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/c6vqpARqbY
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-7d61490abff408d17424995a7429f72e-eb3d68e09350af2f-00
+      ┣ 服务线程 ID：                                     #28
+      ┣ 执行耗时：                                        390ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0e11H1000WKpzV1QT2300SXLYb11H10Q","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","sessionKey":"GRi5VXQ2IsB04GdWw72+OQ==","code":"0e11H1000WKpzV1QT2300SXLYb11H10Q","appId":"wxe18f9b9a1e9527c1","nickName":"微信用户","avatarUrl":"","gender":0},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766818678"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 15:07:00.9322140 +08:00 Saturday L System.Logging.LoggingMonitor[0] #43
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/c6vqpARqbY
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-48b9719b675d0c3d11a2c00d434be726-86daf853548a9b23-00
+      ┣ 服务线程 ID：                                     #43
+      ┣ 执行耗时：                                        308ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0d19bVIa1ruxQK0gFJGa1CzXjW39bVIn","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","sessionKey":"GRi5VXQ2IsB04GdWw72+OQ==","code":"0d19bVIa1ruxQK0gFJGa1CzXjW39bVIn","appId":"wxe18f9b9a1e9527c1","nickName":"微信用户","avatarUrl":"","gender":0},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766819220"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 15:09:21.9304250 +08:00 Saturday L System.Logging.LoggingMonitor[0] #53
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.WechatUserProxy (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：                                      WeChatApiService
+      ┣ 操作名称：                                        WechatUserProxy
+      ┣ 显示名称：                                        
+      ┣ 路由信息：                                        [area]: ; [controller]: 微信小程序公共服务; [action]: wechat-user-proxy
+      ┣ 请求方式：                                        POST
+      ┣ 请求地址：                                        http://localhost:5208/api/WeChatService/WechatUserProxy
+      ┣ 来源地址：                                        https://servicewechat.com/wxe18f9b9a1e9527c1/devtools/page-frame.html
+      ┣ 请求端源：                                        client
+      ┣ 浏览器标识：                                      Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1 wechatdevtools/2.01.2510260 MicroMessenger/8.0.5 Language/zh_CN webview/ hash/2138553362 sid/c6vqpARqbY
+      ┣ 客户端区域语言：                                  zh-CN,zh;q=0.9
+      ┣ 客户端 IP 地址：                                  0.0.0.1
+      ┣ 服务端 IP 地址：                                  0.0.0.1
+      ┣ 客户端连接 ID：                                   00-64ccd90524339a3c25c539f0287cd8b0-40520a7e1e6b8d42-00
+      ┣ 服务线程 ID：                                     #53
+      ┣ 执行耗时：                                        225ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                                          
+      ┣ 响应端：                                          
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                                        Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                                        Arm64
+      ┣ 基础框架：                                        Furion v4.8.7.3
+      ┣ .NET 架构：                                       .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                                        Development
+      ┣ 启动程序集：                                      Sys.Hub.Web.Entry
+      ┣ 进程名称：                                        Sys.Hub.Web.Ent
+      ┣ 托管程序：                                        Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：                                    application/json
+      ┣ 
+      ┣ wechatUserEntity (WechatUserProxyEntity)：        {"userInfo":"{\"nickName\":\"微信用户\",\"avatarUrl\":\"\",\"gender\":0}","code":"0e1EhYZv3zQJe63eMu2w3JIAfb2EhYZ2","token":null,"f_DeviceID":""}
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：                                  200
+      ┣ 原始类型：                                        System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：                                        Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：                                      {"statusCode":200,"data":{"code":200,"data":{"openId":"oj0Bl1xA0qXPjO1vcFGPyN-6oJfk","sessionKey":"GRi5VXQ2IsB04GdWw72+OQ==","code":"0e1EhYZv3zQJe63eMu2w3JIAfb2EhYZ2","appId":"wxe18f9b9a1e9527c1","nickName":"微信用户","avatarUrl":"","gender":0},"message":"登录成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766819361"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 15:10:03.6484890 +08:00 Saturday L System.Logging.LoggingMonitor[0] #62
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Web.Entry.Areas.ScanDemo.Controllers.HomeController.Index (Sys.Hub.Web.Entry)
+      ┣ 
+      ┣ 控制器名称：       HomeController
+      ┣ 操作名称：         Index
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: Home; [action]: Index
+      ┣ 请求方式：         GET
+      ┣ 请求地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 来源地址：         
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-4a98ab479cebc0c9e70494693eb35ae6-8573b885cdc81a5d-00
+      ┣ 服务线程 ID：      #62
+      ┣ 执行耗时：         0ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         Microsoft.AspNetCore.Mvc.IActionResult
+      ┣ 最终类型：         Microsoft.AspNetCore.Mvc.ViewResult
+      ┣ 最终返回值：       null
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+info: 2025-12-27 15:10:03.6899060 +08:00 Saturday L System.Logging.LoggingMonitor[0] #73
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.ScanApiService.Get (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：               ScanApiService
+      ┣ 操作名称：                 Get
+      ┣ 显示名称：                 
+      ┣ 路由信息：                 [area]: ; [controller]: 在线扫码测试demo接口; [action]: 
+      ┣ 请求方式：                 GET
+      ┣ 请求地址：                 http://localhost:5208/ws?ClientID=4-5a5a-4649-b14a-22552352
+      ┣ 来源地址：                 
+      ┣ 请求端源：                 client
+      ┣ 浏览器标识：               Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：           en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：           0.0.0.1
+      ┣ 服务端 IP 地址：           0.0.0.1
+      ┣ 客户端连接 ID：            00-95fb742002c7f54b037c78229fc12078-f5af2ed013a4507c-00
+      ┣ 服务线程 ID：              #17
+      ┣ 执行耗时：                 852747ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：                   
+      ┣ 响应端：                   
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：                 Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：                 Arm64
+      ┣ 基础框架：                 Furion v4.8.7.3
+      ┣ .NET 架构：                .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：                 Development
+      ┣ 启动程序集：               Sys.Hub.Web.Entry
+      ┣ 进程名称：                 Sys.Hub.Web.Ent
+      ┣ 托管程序：                 Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  参数列表 ━━━━━━━━━━━━━━━
+      ┣ Content-Type：             
+      ┣ 
+      ┣ ClientID (String)：        4-5a5a-4649-b14a-22552352
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：           101
+      ┣ 原始类型：                 System.Threading.Tasks.Task
+      ┣ 最终类型：                 Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：               {"statusCode":200,"data":null,"succeeded":true,"errors":null,"extras":null,"timestamp":"1766819403"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+fail: 2025-12-27 15:10:03.7032720 +08:00 Saturday L Microsoft.AspNetCore.Server.Kestrel[13] #73
+      Connection id "0HNI52JRUPFUF", Request id "0HNI52JRUPFUF:00000002": An unhandled exception was thrown by the application.      
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      System.InvalidOperationException: Headers are read-only, response has already started.
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+         at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Furion.StartupFilter.<>c__DisplayClass0_1.<<Configure>b__1>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+      ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+info: 2025-12-27 15:10:05.0910580 +08:00 Saturday L System.Logging.LoggingMonitor[0] #68
+      ┏━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━
+      ┣ Sys.Hub.Application.MiniProgram.WeChatApiService.GetWeChatQrCode (Sys.Hub.Application)
+      ┣ 
+      ┣ 控制器名称：       WeChatApiService
+      ┣ 操作名称：         GetWeChatQrCode
+      ┣ 显示名称：         
+      ┣ 路由信息：         [area]: ; [controller]: 微信小程序公共服务; [action]: we-chat-qr-code
+      ┣ 请求方式：         POST
+      ┣ 请求地址：         http://localhost:5208/api/WeChatService/GetWeChatQrCode
+      ┣ 来源地址：         http://localhost:5208/PangTaiYi/Home/Index
+      ┣ 请求端源：         client
+      ┣ 浏览器标识：       Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+      ┣ 客户端区域语言：   en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7
+      ┣ 客户端 IP 地址：   0.0.0.1
+      ┣ 服务端 IP 地址：   0.0.0.1
+      ┣ 客户端连接 ID：    00-f1a84cc0eede7ce785ee84d73869df8c-2649db678dceef28-00
+      ┣ 服务线程 ID：      #68
+      ┣ 执行耗时：         1335ms
+      ┣ ━━━━━━━━━━━━━━━  Cookies ━━━━━━━━━━━━━━━
+      ┣ 请求端：           
+      ┣ 响应端：           
+      ┣ ━━━━━━━━━━━━━━━  系统信息 ━━━━━━━━━━━━━━━
+      ┣ 系统名称：         Darwin 24.2.0 Darwin Kernel Version 24.2.0: Fri Dec  6 19:01:59 PST 2024; root:xnu-11215.61.5~2/RELEASE_ARM64_T6000
+      ┣ 系统架构：         Arm64
+      ┣ 基础框架：         Furion v4.8.7.3
+      ┣ .NET 架构：        .NET 6.0.36
+      ┣ ━━━━━━━━━━━━━━━  启动信息 ━━━━━━━━━━━━━━━
+      ┣ 运行环境：         Development
+      ┣ 启动程序集：       Sys.Hub.Web.Entry
+      ┣ 进程名称：         Sys.Hub.Web.Ent
+      ┣ 托管程序：         Sys.Hub.Web.Ent
+      ┣ ━━━━━━━━━━━━━━━  返回信息 ━━━━━━━━━━━━━━━
+      ┣ HTTP响应状态码：   200
+      ┣ 原始类型：         System.Threading.Tasks.Task<Sys.Hub.Core.Common.Entity.ResponseEntity>
+      ┣ 最终类型：         Furion.UnifyResult.RESTfulResult<System.Object>
+      ┣ 最终返回值：       {"statusCode":200,"data":{"code":200,"data":{"imageUrl":"/TemporaryFile/QrCode.jpg","miniProgramKey":"7ecac312-e756-4d03-afa7-6","webPageKey":"2-e756-4d03-afa7-6ae104d7"},"message":"二维码获取成功"},"succeeded":true,"errors":null,"extras":null,"timestamp":"1766819405"}
+      ┗━━━━━━━━━━━  Logging Monitor ━━━━━━━━━━━

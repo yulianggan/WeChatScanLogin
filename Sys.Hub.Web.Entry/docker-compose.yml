@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  wechat-scan-login:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wechat-scan-login
+    ports:
+      - "5208:5208"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5208
+    volumes:
+      - ./Sys.Hub.Web.Entry/Configs:/app/Configs:ro
+      - ./Sys.Hub.Web.Entry/wwwroot/TemporaryFile:/app/wwwroot/TemporaryFile
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - wechat-scan-login
+    restart: unless-stopped

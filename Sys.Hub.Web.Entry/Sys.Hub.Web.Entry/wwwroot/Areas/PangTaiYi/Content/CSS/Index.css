@@ -1,0 +1,191 @@
+﻿body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #0E87EB;
+}
+
+    .header > img {
+        height: 40px;
+        width: 40px;
+        float: left;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .header span {
+        float: left;
+        line-height: 50px;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .header a {
+        float: left;
+        line-height: 50px;
+        padding-left: 10px;
+        color: white;
+        margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .header a:hover {
+            color: #f4f304;
+        }
+
+
+.left, .right {
+    float: left;
+    width: 50%;
+    height: calc(100% - 50px);
+}
+
+.right {
+    background-color: #f1f1f1;
+}
+
+.text, .code {
+    width: 350px;
+    margin: auto;
+    height: 200px;
+}
+
+.text {
+    margin-top: 100px;
+}
+
+.QRCodePanel .title {
+    font-size: 13px;
+    color: #8590a6;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.QRCodePanel .QRCode {
+    width: 200px;
+}
+
+/*扫描*/
+.ScanSuccess .title, .ScanRefuse .title {
+    overflow: hidden;
+    text-align: center;
+    width: 186px;
+    margin-top: 20px;
+}
+
+    .ScanSuccess .title *, .ScanRefuse .title * {
+        float: left;
+    }
+
+    .ScanSuccess .title img, .ScanRefuse .title img {
+        width: 30px;
+        margin-top: 6px;
+        margin-right: 15px;
+    }
+
+    .ScanSuccess .title div, .ScanRefuse .title div {
+        font-size: 28px;
+    }
+
+.ScanSuccess .title1, .ScanRefuse .title1 {
+    margin-top: 12px;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    text-align: left;
+}
+
+
+.text .title {
+    font-size: 25px;
+    color: #0E87EB;
+    text-align: left;
+}
+
+.text p {
+    text-align: left;
+}
+
+.print {
+    border-radius: 10px;
+    height: calc( 100% - 85px);
+    width: calc( 100% - 33px);
+    text-align: left;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    padding: 15px;
+    list-style: none;
+    padding-bottom: 70px;
+}
+
+    .print::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .print::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(0,0,0,0.2);
+    }
+
+    .print::-webkit-scrollbar-track {
+        border-radius: 0;
+        background: rgba(0,0,0,0.1);
+    }
+
+    .print li {
+        /* border: 1px red solid;*/
+        margin-bottom: 20px;
+    }
+
+        .print li .time {
+            color: #7c7c7c;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+    .print .monitor {
+        word-break: break-word;
+        overflow: hidden;
+        margin-top: 5px;
+        color: #0E87EB;
+    }
+
+    .print img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        float: left;
+    }
+
+    .print span {
+        margin-left: 15px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+.display {
+    display: none;
+}
+
+.clear {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<view class="main">
+  <view class="titlePanel">
+    <view class="title">您好，</view>
+    <view class="title1">扫码登录确认</view>
+    <view class="title2">
+      <image src="/images/l_t.png" class="l_t"></image>
+      为保障账户安全，请确认是本人操作
+      <image src="/images/r_b.png" class="r_b"></image>
+    </view>
+  </view>
+  <button class="loginBtn" bindtap="getUserProfile">确认登录</button>
+  <button class="cancelLoginBtn" bindtap="CancelLoginBtn">取消登录</button>
+</view>
