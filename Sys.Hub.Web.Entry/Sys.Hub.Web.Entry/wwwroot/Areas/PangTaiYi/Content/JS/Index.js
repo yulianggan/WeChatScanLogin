@@ -45,6 +45,8 @@ function GetWeChatQrCode() {
  * 初始化webSocket
  * @param {any} clientKey
  */
+var heartbeatInterval = null;
+
 function InitWebSocket(WebPageKey) {
     console.log('正在连接 WebSocket, ClientID:', WebPageKey);
     console.log('WebSocket URL:', server + '/ws?ClientID=' + WebPageKey);
@@ -55,6 +57,14 @@ function InitWebSocket(WebPageKey) {
     WEB_SOCKET.onopen = function (evt) {
         console.log('Connection open ...');
         Print(["WebSocket 连接成功！"]);
+        
+        // 启动心跳，每 30 秒发送一次
+        heartbeatInterval = setInterval(function() {
+            if (WEB_SOCKET.readyState === WebSocket.OPEN) {
+                WEB_SOCKET.send(JSON.stringify({ Action: "heartbeat", Msg: "ping" }));
+                console.log('Heartbeat sent');
+            }
+        }, 30000);
     };
 
     WEB_SOCKET.onmessage = function (evt) {
@@ -71,7 +81,13 @@ function InitWebSocket(WebPageKey) {
     WEB_SOCKET.onclose = function (evt) {
         console.log('Connection closed.');
         Print(["通讯已断开，请刷新页面！"])
-        $(".QRCode").attr("src", "/Areas/ScanDemo/Content/Image/Lodding.png");
+        $(".QRCode").attr("src", "/Areas/PangTaiYi/Content/Image/Lodding.png");
+        
+        // 清除心跳
+        if (heartbeatInterval) {
+            clearInterval(heartbeatInterval);
+            heartbeatInterval = null;
+        }
     };
 }
 
