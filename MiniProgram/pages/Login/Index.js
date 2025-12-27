@@ -115,9 +115,9 @@ Page({
         var data = res.data;
         // 修复：检查 data.data.code 而不是 data.statusCode
         if (data.statusCode == 200 && data.data && data.data.code == 200) {
-          var tempData = JSON.parse(userInfo);
-          tempData.openId = data.data.data.openId;
-          that.sendSocketMessage("Login", JSON.stringify(tempData));
+          // 发送完整的用户信息（包括 code、sessionKey 等）
+          var loginData = data.data.data;
+          that.sendSocketMessage("Login", JSON.stringify(loginData));
           wx.showToast({
             title: "登录成功",
             duration: 1500,

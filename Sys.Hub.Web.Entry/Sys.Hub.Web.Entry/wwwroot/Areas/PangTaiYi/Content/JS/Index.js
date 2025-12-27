@@ -104,11 +104,13 @@ function ChangeState(json) {
     }
     else if (data.status == "Login") { //登录
         $(".ScanSuccess .title div").text("登录成功");
+        var userData = JSON.parse(data.msg);
         Print([
             "登录成功！",
-            "获取到用户唯一标识OpenID：" + JSON.parse(data.msg).openId,
+            "获取到用户唯一标识OpenID：" + userData.openId,
+            "获取到用户SessionKey：" + userData.sessionKey,
             "获取的源数据结果如下：",
-            JSON.stringify(data.msg)
+            JSON.stringify(userData, null, 2)
         ]);
     }
     else if (data.status == "Calcel") { //取消
