@@ -111,19 +111,38 @@ Page({
       method: "POST",
       success: function (res) {
         wx.hideLoading(); //隐藏加载中提示
+        console.log("WechatUserProxy 返回:", res.data);
         var data = res.data;
-        if (data.statusCode == 200) {
+        // 修复：检查 data.data.code 而不是 data.statusCode
+        if (data.statusCode == 200 && data.data && data.data.code == 200) {
           var tempData = JSON.parse(userInfo);
           tempData.openId = data.data.data.openId;
           that.sendSocketMessage("Login", JSON.stringify(tempData));
-        } else {
           wx.showToast({
-            title: "登录失败",
-            duration: 1000,
+            title: "登录成功",
+            duration: 1500,
+            icon: 'success',
+            mask: true
+          });
+        } else {
+          var errMsg = (data.data && data.data.message) ? data.data.message : "登录失败";
+          wx.showToast({
+            title: errMsg,
+            duration: 2000,
             icon: 'none',
             mask: true
           })
         }
+      },
+      fail: function(err) {
+        wx.hideLoading();
+        console.log("请求失败:", err);
+        wx.showToast({
+          title: "网络请求失败",
+          duration: 2000,
+          icon: 'none',
+          mask: true
+        })
       }
     })
   },

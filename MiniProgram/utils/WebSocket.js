@@ -30,16 +30,37 @@ var webSocket = {
         socketOpen = false;
         socketClose = false;
         socketMsgQueue = [];
+        
+        // 添加连接超时处理（10秒）
+        var connectTimeout = setTimeout(function() {
+            if (!socketOpen) {
+                wx.hideLoading();
+                wx.showToast({
+                    title: '连接超时，请重试',
+                    icon: 'none',
+                    duration: 2000
+                });
+            }
+        }, 10000);
+        
         wx.connectSocket({
             url:Host + '/ws?ClientID='+options.ClientID,
             success:function(res) {
               console.log("连接成功");
+              clearTimeout(connectTimeout);
                 if (options) {
                     // options.success && options.success(res);
                 }
             },
             fail:function(res) {
-              console.log("连接失败");
+              console.log("连接失败", res);
+              clearTimeout(connectTimeout);
+              wx.hideLoading();
+              wx.showToast({
+                  title: '连接失败：' + (res.errMsg || '未知错误'),
+                  icon: 'none',
+                  duration: 2000
+              });
                 if (options) {
                     options.fail && options.fail(res);
                 }
@@ -163,6 +184,12 @@ wx.onSocketOpen(function(res) {
 // 监听WebSocket错误
 wx.onSocketError(function(res) {
     console.log('WebSocket连接打开失败，请检查！', res);
+    wx.hideLoading();
+    wx.showToast({
+        title: '连接服务器失败',
+        icon: 'none',
+        duration: 2000
+    });
 });
 // 监听WebSocket接受到服务器的消息
 wx.onSocketMessage(function(res) {

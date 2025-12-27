@@ -1,4 +1,4 @@
-﻿var server = ''; //如果开启了https则这里是wss
+var server = ''; //如果开启了https则这里是wss
 
 $(function () {
     var scheme = document.location.protocol == "https:" ? "wss" : "ws";
@@ -46,15 +46,26 @@ function GetWeChatQrCode() {
  * @param {any} clientKey
  */
 function InitWebSocket(WebPageKey) {
+    console.log('正在连接 WebSocket, ClientID:', WebPageKey);
+    console.log('WebSocket URL:', server + '/ws?ClientID=' + WebPageKey);
+    Print(["WebSocket 连接中... ClientID: " + WebPageKey]);
+    
     var WEB_SOCKET = new WebSocket(server + '/ws?ClientID=' + WebPageKey);
 
     WEB_SOCKET.onopen = function (evt) {
         console.log('Connection open ...');
+        Print(["WebSocket 连接成功！"]);
     };
 
     WEB_SOCKET.onmessage = function (evt) {
         console.log('Received Message: ' + evt.data);
+        Print(["收到消息: " + evt.data]);
         ChangeState(evt.data);
+    };
+
+    WEB_SOCKET.onerror = function (evt) {
+        console.log('WebSocket Error:', evt);
+        Print(["WebSocket 连接错误！"]);
     };
 
     WEB_SOCKET.onclose = function (evt) {
